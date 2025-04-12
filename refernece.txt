@@ -1,0 +1,24 @@
+rabbit-red=#ea2e0e
+₹
+============
+for backend we are installing
+1.express
+2.mongoose
+3.dotenv
+4.jsonwebtoken(Authentication,authorization)
+5.bcryptjs(password storing using hash)
+6.cors(cross origin resource sharing)
+7.nodemon
+steps:
+npm init -y
+
+for cloudinary
+npm install multer cloudinary streamifier
+
+install redux toolkit in frontend
+npm i react-redux @reduxjs/toolkit axios
+
+NOTE-goto products.js in data folder in backend and change the images link and again run 
+npm run seed to repopulate
+I have changed productRoutes.js in backend routes line 283
+ _id:{$ne:id} ,//Excluding the current element using 
